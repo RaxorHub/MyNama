@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Key</title>
+
+<style>
+body{
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg,#0d0d0d,#1a1a1a);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    color:white;
+}
+
+.container{
+    background:#111;
+    padding:40px;
+    width:320px;
+    border-radius:15px;
+    box-shadow:0 0 25px rgba(255,255,255,0.05);
+    text-align:center;
+}
+
+h2{
+    margin-bottom:25px;
+    font-weight:600;
+    letter-spacing:1px;
+}
+
+.input-box{
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    border:none;
+    outline:none;
+    border-radius:8px;
+    background:#1f1f1f;
+    color:white;
+    font-size:14px;
+    border:1px solid #2c2c2c;
+    transition:0.3s;
+}
+
+input:focus{
+    border:1px solid #555;
+    box-shadow:0 0 8px rgba(255,255,255,0.1);
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:linear-gradient(45deg,#333,#555);
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:linear-gradient(45deg,#444,#777);
+}
+
+.footer{
+    margin-top:15px;
+    font-size:12px;
+    color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>LOGIN KEY</h2>
+
+    <div class="input-box">
+        <input type="text" placeholder="Masukkan License Key">
+    </div>
+
+    <button>LOGIN</button>
+
+    <div class="footer">
+        Secure Access System
+    </div>
+</div>
+
+</body>
+</html>
